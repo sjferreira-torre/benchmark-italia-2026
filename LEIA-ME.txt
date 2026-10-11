@@ -1,0 +1,30 @@
+CADERNO BENCHMARK ITALIA 2026 - V1 OFFLINE
+
+IMPORTANTE
+Para IndexedDB, Service Worker e instalacao PWA funcionarem corretamente, abra a aplicacao por um servidor HTTP/HTTPS. Nao abra index.html diretamente via file://.
+
+TESTE RAPIDO NO COMPUTADOR
+1. Abra um terminal nesta pasta.
+2. Se tiver Python instalado, execute: python -m http.server 8080
+3. Acesse no navegador: http://localhost:8080
+
+NO CELULAR
+A PWA precisa estar hospedada em HTTPS (ou servida na rede local durante teste). Depois de aberta uma vez, os arquivos ficam em cache e a aplicacao funciona offline.
+
+DADOS
+- Todos os registros sao salvos localmente no IndexedDB do navegador.
+- Exportar backup gera um JSON completo.
+- Importar backup consolida registros pelo ID, sem duplicacao.
+- Limpar dados do navegador/site pode apagar o banco local. Faça backups periodicos.
+
+V1
+- 3 dias livres
+- 8 macroprocessos + Outro assunto
+- 6 perguntas universais + 2 especificas
+- status Nao explorado / Parcial / Explorado
+- registros em qualquer dia
+- multitags
+- tipos: Insight, Automacao, Manual, Gargalo, KPI e Sistema
+- historico e exclusao
+- backup/importacao JSON
+- offline via Service Worker
